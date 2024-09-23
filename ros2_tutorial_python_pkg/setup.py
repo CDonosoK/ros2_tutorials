@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             #nombre_nodo_a_llamar = nombre_paquete.nombre_archivo:funcion_a_llamar
-            'tutorial_00_py_node = ros2_tutorial_python_pkg.my_first_node:main'
+            'tutorial_01_py_node = ros2_tutorial_python_pkg.tutorial_01:main',
+            'tutorial_02_py_node = ros2_tutorial_python_pkg.tutorial_02:main',
         ],
     },
 )

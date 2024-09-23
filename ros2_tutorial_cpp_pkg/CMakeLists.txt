@@ -15,12 +15,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
 # Nombre_del_nodo Ubicacion_del_archivo
-add_executable(tutorial_00_cpp_node src/tutorial_00/my_first_node.cpp)
-ament_target_dependencies(tutorial_00_cpp_node rclcpp)
+add_executable(tutorial_01_cpp_node src/tutorial_01.cpp)
+ament_target_dependencies(tutorial_01_cpp_node rclcpp)
 
 install(
   TARGETS
-  tutorial_00_cpp_node
+  tutorial_01_cpp_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
