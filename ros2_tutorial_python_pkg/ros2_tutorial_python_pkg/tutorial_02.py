@@ -1,8 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from example_interfaces.msg import String
-    
-    
+
 class SimplePublisher(Node):
     def __init__(self):
         super().__init__("simple_publisher")
